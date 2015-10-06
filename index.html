@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SinglePro : Home</title>
+	<meta charset = "utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+   <!-- skeleton cdn -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../jquery.bgswitcher.js"></script>
+
+
+</head>
+<body>
+	<div class="box home">
+
+ <div class="row">
+    <div class="three columns">
+         <p class="pro">Single<span class="blue">Pro</span></p>
+            </div>
+
+    <div class="nine columns">
+        <div class="navbar">
+
+		 <ul>
+		 	<li> <a href="#">HOME</a></li>
+		 	<li> <a href="#">ABOUT</a></li>
+		 	<li> <a href="#">SERVICES</a></li>
+		 	<li> <a href="">WORKS</a></li>
+		 	<li> <a href="">TEAM</a></li>
+		 	<li> <a href="">PRICING</a></li>
+		 	<li> <a href="">BLOG</a></li>
+		 	<li> <a href="">CONTACTS</a></li>
+		 </ul>
+	   </div></div>
+</div>
+
+
+
+      <!--  image 1 -->
+	   <div class="text">
+	   	 <h3>HI, WE ARE<br> ULTRA-MODERN SINGLE<br> PRO</h3>
+	   	 <p>we are a group of experienced designers and developers</p>
+	   </div>
+
+	   <div class="clickable">
+	   	  <p>WHO WE ARE</p>
+	   </div>
+
+
+	   <!-- <div class="text">
+	   	 <h3>WE'LL CHANGE YOUR <br> IDEA OF DESIGN</h3>
+	   	 <p>we are a group of experienced designers and developers</p>
+	   </div>
+
+	   <div class="clickable">
+	   	  <p>WHO WE ARE</p>
+	   </div>
+
+
+	   <div class="text">
+	   	 <h3>HI, WE ARE ULTRA-MODERN SINGLE<br> PRO</h3>
+	   	 <p>we are a group of experienced designers and developers</p>
+	   </div>
+
+	   <div class="clickable">
+	   	  <p>WHO WE ARE</p>
+	   </div> -->
+
+	</div>
+</body>
+<script>
+	$(".box").bgswitcher({
+	  images: ["pic1.jpg", "pic2.jpg", "pic3.jpg"], // Background images
+	  effect: "fade", // fade, blind, clip, slide, drop, hide
+	  interval: 5000, // Interval of switching
+	  loop: true, // Loop the switching
+	  shuffle: false, // Shuffle the order of an images
+	  duration: 5000, // Effect duration
+	  easing: "swing" // Effect easing
+	});
+
+</script>
+</html>
