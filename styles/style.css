@@ -8,7 +8,8 @@
 
 }
 .navbar{
-	margin-top: 29px;
+	/*margin-top: 29px;*/
+    margin-left: 150px;
 }
 
 .navbar ul li{
@@ -19,6 +20,7 @@
 }
 .navbar ul li:hover{
 color: royalblue;
+border-bottom: 2px solid white;
 }
 .navbar ul li:active{
 color: red;
@@ -45,8 +47,9 @@ body{
 	border:2px solid white;
 	width: 140px;
 	margin-left: 45%;
-	padding: 15px;
+	padding: 2px;
 	font-size: 20px;
+    border-radius: 4px;
 }
 .clickable:hover{
 text-align: center;
@@ -54,9 +57,11 @@ text-align: center;
 	border:2px solid blue;
 	width: 140px;
 	margin-left: 45%;
-	padding: 15px;
+	padding: 2px;
 	font-size: 20px;
 	color: blue;
+    border-radius: 4px;
+
 
 
 }
